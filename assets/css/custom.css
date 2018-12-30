@@ -1,0 +1,117 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+/*** GLOBAL ***/
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+
+h1 {
+    margin: 10px 0 40px;
+}
+
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.navbar {
+    background: black;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+}
+
+section {
+    margin: 40px 0;
+}
+
+.btn {
+    margin: 20px 0;
+    padding: 10px 40px;
+    font-size: 18px;
+}
+
+footer  {
+    background: black;
+    padding: 40px 0;
+    color: white;
+}
+
+.footer-links ul {
+    max-height: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul a {
+    color: white;
+}
+
+
+footer ul a:hover {
+    position: relative;
+    color: white;
+    left: 2px;
+    text-decoration: none;
+}
+
+footer ul li {
+    padding: 10px 0;
+}
+/*** BOOKS ***/
+
+
+.library-AM, .library-NZ {
+    margin-bottom: 80px;
+    text-align:center;
+    background: #f9f9f9;
+    padding: 40px;
+}
+
+.library-AM button {
+    text-align: center;
+}
+
+
+.library-NZ {
+    margin: 40px 0;
+}
+
+.book-top img,
+.book-bot img {
+    height: 250px;
+    width: 160px;
+}
+
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .book-top img,
+    .book-bot img {
+        height: 150px;
+        
+    }
+    
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .book-top,
+    .book-bot {
+        margin: 20px 0;
+    }
+}
